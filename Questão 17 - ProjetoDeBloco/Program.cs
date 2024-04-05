@@ -25,13 +25,10 @@ namespace Questão_17___ProjetoDeBloco
             Aluno Juan = new(00003, "Juan");
             Console.WriteLine(ADS.addAluno(marcos));
             Console.WriteLine(ADS.addAluno(bruno));
-            
 
             Console.WriteLine(ADS.GerarPauta());
 
             Console.WriteLine("");
-
- 
 
             Console.WriteLine(lp.exibirTurmas());
             Console.WriteLine(projetoDeBloco.exibirTurmas());

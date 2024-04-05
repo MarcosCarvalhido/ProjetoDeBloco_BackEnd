@@ -10,7 +10,7 @@ namespace Questão13___ProjetoDeBloco
     {
         public int Codigo { get; set; }
         public string Nome { get; set; }
-        public List<Curso> Cursos { get; set; }
+        public List<Grade> Grades { get; set; }
 
         public Disciplina(int codigo, string nome)
         {

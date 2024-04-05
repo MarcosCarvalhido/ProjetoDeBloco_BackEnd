@@ -10,22 +10,12 @@ namespace Questão12___ProjetoDeBloco
     {
         public int Matricula { get; set; }
         public string Nome { get; set; }
-        public List<Turma> turmas { get; set;}
+        public Turma Turma { get; set;}
 
         public Aluno(int matricula, string nome)
         {
             Matricula = matricula;
             Nome = nome;
-            turmas = new List<Turma>();
-        }
-
-        public void AddTurma(Turma turma)
-        {
-            turmas.Add(turma);
-        }
-        public  List<Turma> exibirTurmas()
-        {
-            return turmas;
         }
         public override string ToString()
         {

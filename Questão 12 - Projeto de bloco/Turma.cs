@@ -31,7 +31,7 @@
         }
         public bool AbrirTurma()
         {
-            return (Alunos.Count >= 10 && Alunos.Count <= 50);
+            return (Alunos.Count > 2 && Alunos.Count < 10);
         }
         public string ListarAlunos()
         {
